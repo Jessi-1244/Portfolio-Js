@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="DataAnalysisClip" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve" width="512px" height="512px">
+    <g>
+        <!-- Computer screen -->
+        <rect x="40" y="40" width="400" height="280" rx="20" ry="20" fill="#e0e0e0" stroke="#444444" stroke-width="5"/>
+        <!-- Data table -->
+        <g fill="#cccccc" stroke="#444444" stroke-width="2">
+            <rect x="60" y="60" width="360" height="40"/>
+            <rect x="60" y="110" width="360" height="40"/>
+            <rect x="60" y="160" width="360" height="40"/>
+            <rect x="60" y="210" width="360" height="40"/>
+        </g>
+        <!-- Magnifying glass -->
+        <g>
+            <circle cx="300" cy="150" r="40" fill="none" stroke="#444444" stroke-width="4"/>
+            <line x1="330" y1="180" x2="370" y2="220" stroke="#444444" stroke-width="4"/>
+        </g>
+        <!-- Bar chart -->
+        <g>
+            <rect x="80" y="120" width="20" height="60" fill="#7777ff"/>
+            <rect x="110" y="90" width="20" height="90" fill="#44cc44"/>
+            <rect x="140" y="150" width="20" height="30" fill="#ffcc00"/>
+        </g>
+        <!-- Line chart -->
+        <g fill="none" stroke="#ff4444" stroke-width="3">
+            <line x1="180" y1="160" x2="200" y2="130"/>
+            <line x1="200" y1="130" x2="220" y2="150"/>
+            <line x1="220" y1="150" x2="240" y2="100"/>
+            <line x1="240" y1="100" x2="260" y2="140"/>
+        </g>
+        <!-- Pie chart -->
+        <g transform="translate(340, 190)">
+            <circle r="30" fill="#ffcc00"/>
+            <path d="M0,0 L30,0 A30,30 0 0,1 -26,15 Z" fill="#7777ff"/>
+            <path d="M0,0 L-26,15 A30,30 0 0,1 0,-30 Z" fill="#44cc44"/>
+        </g>
+        <!-- Annotations -->
+        <text x="40" y="350" font-family="Arial" font-size="16" fill="#444444">Data Analysis Tools</text>
+        <text x="100" y="30" font-family="Arial" font-size="24" fill="#444444">Data Analysis</text>
+    </g>
+</svg>
